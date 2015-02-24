@@ -7,5 +7,6 @@ When this bookmarklet is run, mathml from an image's data-mathml attribute or ot
 # Live Example
 Add the following link to your bookmarklets, either by dragging it to your bookmarks or by right clicking it and adding it that way.
 
-[Math Injector Bookmarklet](javascript: (function () { var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://pac.bz/MathInjector.js'); document.body.appendChild(jsCode); }());)
-
+<a href="javascript: (function () { var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://pac.bz/MathInjector.js'); document.body.appendChild(jsCode); }());">
+Math Injector Bookmarklet
+</a>
