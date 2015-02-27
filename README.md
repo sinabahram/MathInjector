@@ -11,5 +11,11 @@ Math Injector
 </a>
 ```
 
+# How to Test
+There's an image with a data-mathml attribute on the following page:
+http://a11yideas.com/csun/math/
+
+We're successful wen we can get the math from the data-math attribute to show up after that image in the dom. We'll worry about prettifying it later.
+
 # Current Issue
 Currently, this doesn't work when run as a bookmarklet. Is there a race condition going on?
