@@ -23,12 +23,10 @@ for(var i=0; i<imgs.length; i++) {
 	alert('image '+i+' had data-mathml');
 	var mathml = img.dataset.mathml;
 
-
-
 //	alert('Pre Mathml='+mathml);
 
 /*
-* replace chunk characters from WIRIS
+* replace junk characters from WIRIS
 * the following only works within console (where it works perfectly), but not when run as a bookmarklet
 */
 	mathml = replaceAll('\xa8', '"', mathml);
