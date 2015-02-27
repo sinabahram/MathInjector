@@ -6,8 +6,11 @@
 * @Author Sina Bahram (sina@sinabahram.com)
 */
 
-function replaceAll(find, replace, str) { 	return str.replace(new RegExp(find, 'g'), replace); }
+function replaceAll(find, replace, str) {
+	return str.replace(new RegExp(find, 'g'), replace);
+}
 
+(function() {
 var mj = document.createElement('script');
 mj.setAttribute('src', 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML');
 document.body.appendChild(mj);
@@ -43,3 +46,4 @@ for(var i=0; i<imgs.length; i++) {
 	mathMLNode.setAttribute('display' ,'block');
 	img.parentNode.insertBefore(mathMLNode, img.nextSibling);
 }
+})();
