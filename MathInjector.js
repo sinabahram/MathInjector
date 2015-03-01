@@ -30,7 +30,6 @@ for(var i=0; i<imgs.length; i++) {
 
 /*
 * replace junk characters from WIRIS
-* the following only works within console (where it works perfectly), but not when run as a bookmarklet
 */
 	mathml = replaceAll('\xa8', '"', mathml);
 	mathml = replaceAll('\xa7', '&', mathml);
